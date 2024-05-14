@@ -1,4 +1,4 @@
-def Greeter do
+defmodule Greeter do
   def start do
     name = IO.gets("hi there, whats your name?\n")
 
